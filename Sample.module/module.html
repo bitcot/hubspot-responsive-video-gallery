@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" ></script>
+<div class="gallery">
+  <div class="vd__Wrap">
+    <div class="vd__Section">
+      <div class="popup-gallery">  
+        {% for item in module.youtube_video_gallary %}
+          {% if item.video_thumbnail_image.src %}
+            <div class="col__{{ module.select_column_layout }}V">
+              <div class="video_Cover">
+                <div class="video_thumb">
+                  <img src="{{ item.video_thumbnail_image.src }}" alt="{{ item.video_thumbnail_image.alt }}" /> 
+                </div>
+                <a href="{{ item.youtube_video_url.href }}" class="video play_icn" video-url="{{ item.youtube_video_url.href }}" style="cursor: pointer;"> 
+                  <img src="{{ module.play_icon_image.src }}"> 
+                </a> 
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>              
+  </div>
+</div>
