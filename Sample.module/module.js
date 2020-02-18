@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
                       // Or a function that should return %id%, for example:
                       // id: function(url) { return 'parsed id'; } 
 
-                     src: '//www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe. 
+                     src: '//www.youtube.com/embed/%id%?autoplay=1&rel=0', // URL that will be set as a source for iframe. 
                    },
                    vimeo: {
                      index: 'vimeo.com/',
@@ -50,7 +50,6 @@ jQuery(document).ready(function() {
     			navigateByImgClick: true,
     			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
     		},
-       mainClass: 'mfp-fade mfp-video',
         
     	});
   }, 1200 );

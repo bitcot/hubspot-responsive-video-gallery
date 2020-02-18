@@ -1,0 +1,91 @@
+[ {
+  "id" : "8cafbd94-1000-4b3c-c401-71a89dbfc992",
+  "name" : "select_column_layout",
+  "label" : "Select Column Layout",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "1", "Column 1" ], [ "2", "Column 2" ], [ "3", "Column 3" ] ],
+  "type" : "choice",
+  "default" : "3"
+}, {
+  "id" : "e437ff9c-3bc8-1426-f14f-43b688825278",
+  "name" : "play_icon_image",
+  "label" : "Play Icon Image",
+  "required" : true,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://cdn2.hubspot.net/hubfs/7029090/Play_icn.png",
+    "alt" : "Play_icn",
+    "width" : 31,
+    "height" : 37,
+    "max_width" : 31,
+    "max_height" : 37
+  }
+}, {
+  "id" : "b49e7a06-34e1-285c-fd2c-0895548eb1f3",
+  "name" : "youtube_video_gallary",
+  "label" : "Youtube video gallary",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 1000,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "b081b103-2b8f-65c0-7bf7-481d85c01c11",
+    "name" : "video_thumbnail_image",
+    "label" : "video thumbnail image",
+    "required" : true,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://cdn2.hubspot.net/hubfs/7029090/_478%20%20Dummy%20Video%20For%20YouTube%20API%20Test%20-%20YouTube.png",
+      "alt" : "_478  Dummy Video For YouTube API Test - YouTube",
+      "width" : 702,
+      "height" : 493,
+      "max_width" : 702,
+      "max_height" : 493
+    }
+  }, {
+    "id" : "ff14f0ba-6c2c-e74d-cfc1-4710816fe1e5",
+    "name" : "youtube_video_url",
+    "label" : "Youtube video url",
+    "required" : true,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "type" : "url",
+    "default" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.youtube.com/watch?v=9xwazD5SyVg",
+      "content_id" : null
+    }
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : [ {
+    "video_thumbnail_image" : {
+      "size_type" : "auto",
+      "src" : "https://cdn2.hubspot.net/hubfs/7029090/_478%20%20Dummy%20Video%20For%20YouTube%20API%20Test%20-%20YouTube.png",
+      "alt" : "_478  Dummy Video For YouTube API Test - YouTube",
+      "width" : 702,
+      "height" : 493,
+      "max_width" : 702,
+      "max_height" : 493
+    },
+    "youtube_video_url" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.youtube.com/watch?v=9xwazD5SyVg",
+      "content_id" : null
+    }
+  } ]
+} ]

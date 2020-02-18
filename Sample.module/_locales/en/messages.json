@@ -1,0 +1,172 @@
+{
+  "name" : {
+    "message" : "Video gallery with popup",
+    "description" : "",
+    "placeholders" : null
+  },
+  "play_icon_image.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "play_icon_image.default.alt" : {
+    "message" : "Play_icn",
+    "description" : null,
+    "placeholders" : null
+  },
+  "play_icon_image.default.size_type" : {
+    "message" : "auto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "play_icon_image.default.src" : {
+    "message" : "https://cdn2.hubspot.net/hubfs/7029090/Play_icn.png",
+    "description" : null,
+    "placeholders" : null
+  },
+  "play_icon_image.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "play_icon_image.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_column_layout.choices.value 1" : {
+    "message" : "Label 1",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_column_layout.choices.value 2" : {
+    "message" : "Label 2",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_column_layout.default" : {
+    "message" : "3",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_column_layout.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_column_layout.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_column_layout.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "video_thumbnail_image.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "video_thumbnail_image.default.size_type" : {
+    "message" : "auto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "video_thumbnail_image.default.src" : {
+    "message" : "https://cdn2.hubspot.net/hubfs/7029090/_478%20%20Dummy%20Video%20For%20YouTube%20API%20Test%20-%20YouTube.png",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.default.video_thumbnail_image.alt" : {
+    "message" : "_478  Dummy Video For YouTube API Test - YouTube",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.default.video_thumbnail_image.size_type" : {
+    "message" : "auto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.default.video_thumbnail_image.src" : {
+    "message" : "https://cdn2.hubspot.net/hubfs/7029090/_478%20%20Dummy%20Video%20For%20YouTube%20API%20Test%20-%20YouTube.png",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.default.youtube_video_url.content_id" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.default.youtube_video_url.href" : {
+    "message" : "https://www.youtube.com/watch?v=9xwazD5SyVg",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.default.youtube_video_url.type" : {
+    "message" : "EXTERNAL",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.video_thumbnail_image.default.alt" : {
+    "message" : "_478  Dummy Video For YouTube API Test - YouTube",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.video_thumbnail_image.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.video_thumbnail_image.label" : {
+    "message" : "video thumbnail image",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.youtube_video_url.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.youtube_video_url.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_gallary.youtube_video_url.label" : {
+    "message" : "Youtube video url",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_url.default.content_id" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_url.default.href" : {
+    "message" : "https://www.youtube.com/watch?v=9xwazD5SyVg",
+    "description" : null,
+    "placeholders" : null
+  },
+  "youtube_video_url.default.type" : {
+    "message" : "EXTERNAL",
+    "description" : null,
+    "placeholders" : null
+  }
+}

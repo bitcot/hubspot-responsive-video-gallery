@@ -1,0 +1,20 @@
+{
+  "content_tags" : [ {
+    "name" : "VIDEO",
+    "source" : "USER"
+  }, {
+    "name" : "GALLERY",
+    "source" : "USER"
+  } ],
+  "css_assets" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "js_assets" : [ ],
+  "master_language" : "en",
+  "other_assets" : [ ],
+  "smart_type" : "NOT_SMART",
+  "module_id" : 25037835099,
+  "is_available_for_new_content" : true
+}
